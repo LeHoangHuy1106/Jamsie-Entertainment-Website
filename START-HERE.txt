@@ -1,0 +1,24 @@
+JAMSIE ENTERTAINMENT — DEVELOPER HANDOFF
+
+1. Extract this ZIP. index.html must sit at the top level alongside assets/.
+2. Open index.html to inspect the site, or serve this folder with your preferred
+   local static server. No install, build command, backend or API key is needed.
+3. Commit the extracted CONTENTS to the root of your GitHub Pages repository.
+   Include the hidden .nojekyll file and the CNAME file. Do not upload only the ZIP.
+4. Follow README.md for branch publishing, domain/DNS and HTTPS setup.
+5. The domain is www.jamsie-entertainment.com. CNAME is already populated.
+   Your GitHub account/repository and DNS access are not part of this ZIP.
+6. Check the deployed homepage, legal pages, project buttons, mobile menu,
+   mail/phone links and a nested missing URL once publishing has completed.
+
+DOCUMENTATION
+README.md: deployment, file structure and editing guidance.
+QA-REPORT.md: checks performed, corrected issues and practical limits.
+FILE-MANIFEST.sha256: checksums for every other file in this package.
+
+The 404 page contains its own copies of CSS/JavaScript and the SVG icon so
+it stays readable even at deeply nested missing URLs. Its return links point
+to the published company domain. Normal pages load bundled relative assets.
+
+Contact links open the visitor's email/calling app. There is no server-side
+contact form. All public sections contain final copy, not placeholder content.
